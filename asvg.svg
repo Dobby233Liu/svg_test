@@ -1,6 +1,10 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="512" height="512" version="1.1" id="SVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>MySvg</title><script type="text/javascript">if(!localStorage.getItem("name")){var text=prompt("your name, please");localStorage.setItem("name",text)} alert("welcome "+localStorage.getItem("name"));</script>
+ <title>MySvg</title><script type="text/javascript"> if(!localStorage.getItem("name")){
+        var text=prompt("Your name, please");
+        localStorage.setItem("name",text)
+    }
+    alert("Welcome, "+localStorage.getItem("name"));</script>
  <g>
   <path id="svg_1" fill="#000000" d="m81,-3l0,512l512,0l0,-512l-512,0z"/>
   <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_2" y="75" x="57" stroke-width="0" fill="#000000">hi</text>
